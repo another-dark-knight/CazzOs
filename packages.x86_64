@@ -14,29 +14,24 @@ usb_modeswitch
 # EFI/UEFI
 refind-efi
 
-# keyring_mirros.endeavour
-endeavouros-keyring
-endeavouros-mirrorlist
 
-# xorg.endeavour
+# xorg
 xf86-video-vesa
-xorg-server
-xorg-xinit
-xorg-xkill
+xorg
+xorg-apps
 
-# kernel.endeavour
+# kernel
 # linux (base-group)
 # linux-headers (base-group)
 linux-firmware
 
-# desktop.endeavour
+# desktop
 xfce4
 xfce4-goodies
 xfce4-pulseaudio-plugin
-grub2-theme-endeavouros
 qt5ct
 
-# 06-bowser.endeavour
+# 06-bowser
 firefox
 #firefox-ublock-origin
 
@@ -106,6 +101,8 @@ netctl
 net-tools
 networkmanager
 networkmanager-openvpn
+network-manager-applet
+nm-connection-editor
 nss-mdns
 usb_modeswitch
 whois
@@ -144,12 +141,12 @@ xf86-video-vesa
 xorg-server
 
 # nouveau.packages
-xf86-video-nouveau
+#xf86-video-nouveau
 
 # nvidia.packages
-#nvidia
-#nvidia-utils
-#nvidia-settings
+nvidia
+nvidia-utils
+nvidia-settings
 
 # loginmanager.packages
 light-locker
@@ -168,7 +165,7 @@ zsh
 grml-zsh-config
 galculator
 
-# calamares.endeavour
+# calamares
 calamares_offline
 lsb-release
 libpwquality
@@ -282,8 +279,6 @@ gst-plugins-ugly
 # package.notification
 kalu
 
-# AUR-support 
-yay
 
 virtualbox-guest-utils
 virtualbox-guest-modules-arch
