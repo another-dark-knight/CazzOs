@@ -1,10 +1,10 @@
-NAME="EndeavourOS"
-PRETTY_NAME="EndeavourOS"
-ID=endeavouros
+NAME="CazzOS"
+PRETTY_NAME="CazzOS"
+ID=cazzos
 ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="0;36"
-HOME_URL="https://endeavouros.com/"
-SUPPORT_URL="https://forum.endeavouros.com/"
-BUG_REPORT_URL="https://github.com/endeavouros-team"
-LOGO=endeavouros
+HOME_URL="https://github.com/another-dark-knight/CazzOs"
+SUPPORT_URL="https://github.com/another-dark-knight/CazzOs/issues"
+BUG_REPORT_URL="https://github.com/another-dark-knight/CazzOs/issues"
+LOGO=cazzos
