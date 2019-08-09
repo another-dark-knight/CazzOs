@@ -2,9 +2,9 @@
 
 set -e -u
 
-iso_name=endeavouros
-iso_label="ENDEAVOUROS"
-iso_publisher="Arch Linux <http://www.archlinux.org>"
+iso_name=cazzos
+iso_label="CAZZOS"
+iso_publisher="Spandan Ghosh"
 iso_application="Arch Linux Live/Rescue CD"
 iso_version=$(date +%Y.%m.%d)
 install_dir=arch

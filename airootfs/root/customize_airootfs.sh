@@ -13,18 +13,7 @@ chmod 700 /root
 
 ! id liveuser && useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/zsh liveuser
 #injecting Desktop settings for LiveUser:
-git clone https://github.com/endeavouros-team/liveuser-desktop-settings.git
-cd liveuser-desktop-settings
-rm -R /home/liveuser/.config
-cp -R .config /home/liveuser/
-chown -R liveuser:users /home/liveuser/.config
-cp install /home/liveuser/
-chmod +x /home/liveuser/install
-chown liveuser:users /home/liveuser/install
-cp preinfo.txt /home/liveuser/
-chown liveuser:users /home/liveuser/preinfo.txt
-cd .. 
-rm -R liveuser-desktop-settings
+
 #
 chmod 755 /etc/sudoers.d
 mkdir -p /media
